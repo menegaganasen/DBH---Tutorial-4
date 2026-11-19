@@ -1,0 +1,103 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tutorial 4: Dietary Types and Advice</title>
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);--bg:#f5f7f4;--card:#fff;--tx:#1d2a24;--mut:#5d6b64;--ac:#1f7a5a;--bd:#d9e1dc;--ok:#e3f4ea;--okt:#17613f;--no:#fdebe8;--not:#a1331f;--in:#eef3f0;--case:#fff6e0}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){color-scheme:dark;--bg:#141a17;--card:#1d2621;--tx:#e8efeb;--mut:#9fb0a7;--ac:#4fc49a;--bd:#2f3d36;--ok:#183a2a;--okt:#8be0b5;--no:#40201b;--not:#f2a597;--in:#26322c;--case:#3a3320}}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+header{background:var(--ac);color:#fff;padding:28px 20px}
+header h1{margin:0 0 4px;font-size:1.5rem}header p{margin:0;opacity:.9}
+main{max-width:820px;margin:0 auto;padding:16px}
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--card);border:1px solid var(--bd);border-radius:10px;padding:10px 14px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:14px}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:16px 18px;margin-bottom:16px}
+.card h2{margin:0 0 4px;font-size:1.1rem;color:var(--ac)}
+.case{background:var(--case);border-radius:8px;padding:10px 12px;margin:8px 0}
+.case b{display:block;margin-bottom:2px}
+h3{margin:14px 0 0;font-size:1rem}
+.q{border-top:1px solid var(--bd);padding:12px 0;margin-top:8px}
+.q p{margin:0 0 8px;font-weight:500}
+textarea{width:100%;box-sizing:border-box;padding:9px 10px;border:1px solid var(--bd);border-radius:8px;background:var(--in);color:var(--tx);font:inherit;min-height:80px;resize:vertical}
+button{font:inherit;cursor:pointer;border-radius:8px;border:1px solid var(--ac);background:var(--ac);color:#fff;padding:7px 14px;margin-top:8px}
+button.g{background:transparent;color:var(--ac);margin:0}
+.o{display:block;width:100%;text-align:left;background:var(--in);color:var(--tx);border:1px solid var(--bd);margin:6px 0 0}
+.o.c{background:var(--ok);border-color:var(--okt);color:var(--okt)}.o.w{background:var(--no);border-color:var(--not);color:var(--not)}
+.fb{margin-top:10px;padding:10px 12px;border-radius:8px;background:var(--in);font-size:.95rem}
+.fb.ok{background:var(--ok)}.fb.no{background:var(--no)}.fb b{display:block;margin-bottom:2px}
+.msg{color:var(--not);font-size:.9rem;margin-top:4px}
+</style>
+</head>
+<body>
+<header><h1>Tutorial 4: Dietary Types and Advice</h1><p>Case-based questions · Answer each question first, then check to see the answer.</p></header>
+<main>
+<div class="bar"><span id="prog">Answered 0 / 0</span><span id="score">MCQ score: 0 / 0</span><button class="g" onclick="location.reload()">Restart</button></div>
+<div id="app"></div>
+</main>
+<script>
+const L=(q,a)=>({q,a}),M=(q,o,c,e)=>({q,o,c,e});
+const S=[
+{h:"Case 1: Restrictive Diet, Fatigue and Hair Loss",case:"A 22-year-old woman visits a beauty clinic because of increased hair shedding and brittle nails. She recently started a vegetarian weight-loss diet. She frequently skips breakfast and eats mainly small portions of rice and vegetables. She rarely consumes beans, eggs or dairy products. She also reports feeling tired during daily activities.",
+ m:[
+ M("1. Which dietary change would best support her hair growth and tissue repair?",["Increase rice portions without changing other foods","Include beans, eggs and dairy products regularly","Replace main meals with fruit juice","Remove all fats from her diet"],1,"These foods provide protein for growth, maintenance and tissue repair."),
+ M("2. Inadequate intake of which mineral could contribute to her fatigue through reduced oxygen transport?",["Calcium","Sodium","Iron","Iodine"],2,"Iron supports oxygen transport through haemoglobin."),
+ M("3. Which vitamin requires particular attention when planning her vegetarian diet?",["Vitamin C","Vitamin E","Vitamin A","Vitamin B12"],3,"Vegetarian diets require planning to ensure adequate vitamin B12 intake."),
+ M("4. Which approach would best support weight loss while maintaining nutritional quality?",["Reduce total energy intake while including all essential nutrients","Skip two meals daily and eat a large evening meal","Replace carbohydrates entirely with protein supplements","Eat only fruits until the target weight is reached"],0,"A suitable low-calorie diet reduces energy intake while maintaining essential nutrients."),
+ M("5. Which combination of nutrients deserves particular attention when reviewing her diet for hair health?",["Calcium, sodium and vitamin C","Carbohydrates, fluoride and vitamin A","Protein, iron and zinc","Sodium, vitamin E and calcium"],2,"Protein, iron and zinc are relevant to maintaining healthy hair.")],
+ s:[
+ L("1. State two functions of protein relevant to her hair, nails and general health. (2 marks)","Any two, 1 mark each:<br>• Tissue growth and maintenance.<br>• Tissue repair.<br>• Formation of structural proteins, including keratin in hair and nails.<br>• Collagen formation and skin regeneration."),
+ L("2. Identify two dietary habits in the case that may contribute to inadequate nutrient intake. (2 marks)","Any two, 1 mark each:<br>• Frequently skipping breakfast.<br>• Eating a limited variety of foods.<br>• Rarely consuming protein-rich foods.<br>• Following a restrictive diet without ensuring nutritional adequacy."),
+ L("3. Suggest three protein sources suitable for a vegetarian who consumes eggs and dairy products. (3 marks)","Any three, 1 mark each:<br>• Beans or lentils.<br>• Tofu or other soya products.<br>• Eggs.<br>• Milk.<br>• Yoghurt or cheese."),
+ L("4. Define negative energy balance. (2 marks)","Energy intake is lower than energy expenditure. (2 marks)"),
+ L("5. Give three practical recommendations to improve her diet while supporting weight management. (3 marks)","Any three, 1 mark each:<br>• Eat regular, balanced meals.<br>• Include a protein source in each main meal.<br>• Ensure adequate iron, zinc and vitamin B12 intake.<br>• Reduce total energy intake without excluding essential nutrients.<br>• Include regular physical activity.<br>• Avoid extreme dietary restriction.")]},
+{h:"Case 2: Dry Skin and Poor Dietary Habits",case:"A 48-year-old office worker seeks advice about dry skin and reduced skin elasticity. She avoids fish, nuts, seeds and oils because she believes all fats are unhealthy. She drinks very little water and frequently replaces balanced meals with packaged snacks. Her intake of fruits and vegetables is low.",
+ m:[
+ M("1. Which dietary change best addresses the nutritional factors associated with her dry skin?",["Increase protein while continuing to avoid fats","Increase fruit intake while reducing water intake","Replace meals with vitamin supplements","Include healthy fats and drink water regularly"],3,"Healthy fats and adequate water intake support skin health."),
+ M("2. Which food would increase her intake of omega-3 fatty acids?",["White rice","Oily fish","Cucumber","White bread"],1,"Oily fish provides omega-3 fatty acids."),
+ M("3. Which vitamin supports collagen production?",["Vitamin C","Vitamin B12","Vitamin D","Vitamin K"],0,"Vitamin C supports collagen synthesis."),
+ M("4. Which vitamin helps protect skin from oxidative damage?",["Vitamin B1","Vitamin B12","Vitamin E","Vitamin K"],2,"Vitamin E provides antioxidant protection."),
+ M("5. Which mineral supports skin healing and immunity?",["Calcium","Sodium","Iron","Zinc"],3,"Zinc supports skin healing and immunity.")],
+ s:[
+ L("1. Identify three dietary habits in the case that may contribute to poor skin health. (3 marks)","Any three, 1 mark each:<br>• Avoiding sources of healthy fats.<br>• Drinking very little water.<br>• Frequently replacing balanced meals with packaged snacks.<br>• Eating few fruits and vegetables."),
+ L("2. State two functions of fats in the body. (2 marks)","Any two, 1 mark each:<br>• Provide concentrated energy.<br>• Support cell membrane structure.<br>• Support hormone production.<br>• Supply essential fatty acids for skin health."),
+ L("3. State two roles of water relevant to skin health and normal body function. (2 marks)","Any two, 1 mark each:<br>• Maintains normal hydration and supports skin moisture.<br>• Transports nutrients.<br>• Supports removal of metabolic waste.<br>• Supports normal skin elasticity."),
+ L("4. Explain the roles of vitamin C and vitamin E in maintaining skin health. (2 marks)","1 mark each:<br>• Vitamin C: supports collagen production.<br>• Vitamin E: helps protect cells from oxidative damage."),
+ L("5. Suggest three practical dietary changes appropriate for this woman. (3 marks)","Any three, 1 mark each:<br>• Include healthy fats from fish, nuts, seeds or oils.<br>• Drink water regularly throughout the day.<br>• Include fruits and vegetables daily.<br>• Replace packaged snacks with balanced meals.<br>• Include foods supplying vitamins C and E.")]}
+];
+const app=document.getElementById("app");let done=0,total=0,sc=0,st=0;
+function upd(){document.getElementById("prog").textContent="Answered "+done+" / "+total;document.getElementById("score").textContent="MCQ score: "+sc+" / "+st}
+S.forEach(s=>{
+ const c=document.createElement("section");c.className="card";
+ c.innerHTML="<h2>"+s.h+"</h2><div class=case><b>Case</b>"+s.case+"</div><h3>Multiple-choice questions</h3>";
+ const add=it=>{
+  total++;if(it.o)st++;
+  const q=document.createElement("div");q.className="q";q.innerHTML="<p>"+it.q+"</p>";
+  const fb=document.createElement("div");
+  const show=(g,h)=>{fb.className="fb "+(g===null?"":g?"ok":"no");fb.innerHTML=h;q.appendChild(fb);done++;upd()};
+  if(it.o){
+   it.o.forEach((t,oi)=>{const b=document.createElement("button");b.className="o";b.textContent=String.fromCharCode(65+oi)+". "+t;
+    b.onclick=()=>{[...q.querySelectorAll(".o")].forEach((x,xi)=>{x.disabled=true;if(xi==it.c)x.classList.add("c")});
+     const g=oi==it.c;if(!g)b.classList.add("w");else sc++;
+     show(g,"<b>"+(g?"Correct ✓":"Not quite")+"</b>Answer: "+String.fromCharCode(65+it.c)+". "+it.o[it.c]+"<br>"+it.e)};q.appendChild(b)});
+  }else{
+   const f=document.createElement("textarea");f.placeholder="Type your answer…";q.appendChild(f);
+   const m=document.createElement("div");m.className="msg";q.appendChild(m);
+   const b=document.createElement("button");b.textContent="Check answer";q.appendChild(b);
+   b.onclick=()=>{if(!f.value.trim()){m.textContent="Please write an answer first.";return}
+    m.textContent="";f.disabled=true;b.remove();
+    show(null,"<b>Marking scheme</b>"+it.a+"<br><i>Compare with your answer and award yourself marks.</i>")};
+  }
+  c.appendChild(q)};
+ s.m.forEach(add);
+ const h=document.createElement("h3");h.textContent="Short-answer questions";c.appendChild(h);
+ s.s.forEach(add);
+ app.appendChild(c)});
+upd();
+</script>
+</body>
+</html>
+
+</body></html>
